@@ -1,0 +1,35 @@
+~~ When writting code please use this header template to keep consistancy ~~
+
+~~template~~
+
+<program language>
+<Name>
+<date> ~also try to keep track when you enter new info into the code, could use different versions.~
+//////////////////////////////////////////////////////////////////////////////////////////////  
+<discription of code>
+<Why was this code written; ex. past code was bad, new code was needed, someone asked for it>
+<Scale from 1-5; if it is working is a 5>
+<Any main board functions used? If so wich ones?>  
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+*start of program*
+
+
+~~example~~
+
+  <C>
+  <John Smith>
+  <01/01/1010>
+///////////////////
+  <This code is used to shift the bits left by 2 every baud tick>
+  <This code was written to make a 4 times multiplyer every baud tick since jim asked for a quick 4 times bit multiplier for his uart design>
+  <3, it seems to crash every other time and I dont know why>
+  <this uses the onboard fpga>
+////////////////////////
+
+*start of verilog module*
+  
+
+
+
+  
