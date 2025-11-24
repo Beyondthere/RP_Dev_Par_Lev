@@ -3,8 +3,10 @@ CC = gcc
 # Red Pitaya API paths
 RP_INCLUDE = /opt/redpitaya/include
 RP_LIB     = /opt/redpitaya/lib
+RP_COMMON = /opt/redpitaya/include/common
 
-CFLAGS  = -I$(RP_INCLUDE)
+
+CFLAGS  = -I$(RP_INCLUDE) -I$(RP_COMMON)
 LDFLAGS = -L$(RP_LIB) -lrp
 
 # All .c files in the folder
