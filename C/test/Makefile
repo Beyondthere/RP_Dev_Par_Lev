@@ -7,7 +7,7 @@ RP_COMMON = /opt/redpitaya/include/common
 
 
 CFLAGS  = -I$(RP_INCLUDE) -I$(RP_COMMON)
-LDFLAGS = -L$(RP_LIB) -lrp
+LDFLAGS = -L$(RP_LIB) -lrp -lrp-sweep
 
 # All .c files in the folder
 SRCS = $(wildcard *.c)
