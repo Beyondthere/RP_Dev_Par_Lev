@@ -15,7 +15,7 @@ if(rp_Init() != RP_OK){
 
 float start_freq = 100000; //in hertz
 float end_freq = 300000; //in hertz
-int sweep_time = 100000; //in micro seconds
+float sweep_time = 100000; //in micro seconds
 
 rp_GenReset();
 
