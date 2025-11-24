@@ -27,7 +27,7 @@ rp_GenSweepEndFreq(RP_CH_1, end_freq);
 rp_SWSetTime(RP_CH_1, sweep_time);
 
 
-rp_sw_SetMode(RP_CH_1, RP_GEN_SWEEP_MODE_LINEAR);
+rp_SWSetMode(RP_CH_1, RP_GEN_SWEEP_MODE_LINEAR);
 
 
 rp_GenAmp(RP_CH_1, .3);
