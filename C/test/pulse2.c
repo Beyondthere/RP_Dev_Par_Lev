@@ -1,11 +1,11 @@
-<C and C++ compiler>
-<Matthew Krumholz>
-<11/24/2025> ~also try to keep track when you enter new info into the code, could use different 
+//<C and C++ compiler>
+//<Matthew Krumholz>
+//<11/24/2025> ~also try to keep track when you enter new info into the code, could use different 
 
-<discription of code>
-<Why was this code written; ex. past code was bad, new code was needed, someone asked for it>
-<Scale from 1-5; if it is working is a 5>
-<Any main board functions used? If so wich ones?>  
+//<discription of code>
+//<Why was this code written; ex. past code was bad, new code was needed, someone asked for it>
+//<Scale from 1-5; if it is working is a 5>
+//<Any main board functions used? If so wich ones?>  
 
 #include <stdio.h>
 #include <unistd.h>
