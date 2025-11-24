@@ -1,4 +1,4 @@
-CC = gcc
+CC = c++
 
 # Red Pitaya API paths
 RP_INCLUDE = /opt/redpitaya/include
