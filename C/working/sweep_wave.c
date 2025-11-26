@@ -1,11 +1,11 @@
 //<C and C++ compiler>
 //<Matthew Krumholz>
-//<11/24/2025> ~also try to keep track when you enter new info into the code, could use different 
+//<11/24/2025> 
 
-//<discription of code>
-//<Why was this code written; ex. past code was bad, new code was needed, someone asked for it>
-//<Scale from 1-5; if it is working is a 5>
-//<Any main board functions used? If so wich ones?>  
+//<discription of code> Lets a user change durration of sweep in microseconds how manytimes the sweep happens and the the start and end of the sweep. The sweep is a sine wave that is linear.
+//<Why?> This will be used to control the peizo electric powersupply to release nanoparticles.
+//<5> It works!
+//<Board functions used?>  sweep_api, rp.h, uses the 125Mhz fr channels.
 
 #include <stdio.h>
 #include <unistd.h>
