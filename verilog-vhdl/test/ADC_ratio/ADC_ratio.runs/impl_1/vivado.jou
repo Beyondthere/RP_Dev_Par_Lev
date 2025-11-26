@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Nov 26 13:07:39 2025
+# Process ID: 15876
+# Current directory: C:/Users/matta/Documents/2025 Fall/Research/RP_Dev_Par_Lev/verilog-vhdl/test/ADC_ratio/ADC_ratio.runs/impl_1
+# Command line: vivado.exe -log adc_ratio.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source adc_ratio.tcl -notrace
+# Log file: C:/Users/matta/Documents/2025 Fall/Research/RP_Dev_Par_Lev/verilog-vhdl/test/ADC_ratio/ADC_ratio.runs/impl_1/adc_ratio.vdi
+# Journal file: C:/Users/matta/Documents/2025 Fall/Research/RP_Dev_Par_Lev/verilog-vhdl/test/ADC_ratio/ADC_ratio.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source adc_ratio.tcl -notrace
