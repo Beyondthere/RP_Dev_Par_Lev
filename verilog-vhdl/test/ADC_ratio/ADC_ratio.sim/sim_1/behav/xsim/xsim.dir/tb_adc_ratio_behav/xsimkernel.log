@@ -1,7 +1,0 @@
-Running: xsim.dir/tb_adc_ratio_behav/xsimk.exe -simmode gui -wdb tb_adc_ratio_behav.wdb -simrunnum 0 -socket 57433
-Design successfully loaded
-Design Loading Memory Usage: 7704 KB (Peak: 7704 KB)
-Design Loading CPU Usage: 78 ms
-Simulation completed
-Simulation Memory Usage: 8600 KB (Peak: 8600 KB)
-Simulation CPU Usage: 78 ms

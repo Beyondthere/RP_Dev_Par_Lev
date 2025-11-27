@@ -1,9 +1,0 @@
-Vivado Simulator 2017.4
-Time resolution is 1 ps
-------------------------------------------------------------------
-Time (ns) | ADC Input (Hex) | DAC Output (Hex)
-------------------------------------------------------------------
-100          | 2500              | 4a00               
-------------------------------------------------------------------
-Simulation finished.
-$finish called at time : 140 ns : File "C:/Users/matta/Documents/2025 Fall/Research/RP_Dev_Par_Lev/verilog-vhdl/test/ADC_ratio/ADC_ratio.srcs/sim_1/new/sim_adc.v" Line 71
