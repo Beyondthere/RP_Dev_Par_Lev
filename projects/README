@@ -3,3 +3,7 @@ This directory will contain different versions of the project. Each version will
 Start with Ver 1.0 --> 1.1 --> 1.2.
 
 Fully working version will be called Ver2.0. 
+
+
+cat <>.bit > /dev/xdevcfg to load the bitsteam on the RP
+
