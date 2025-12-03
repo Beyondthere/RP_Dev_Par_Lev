@@ -7,3 +7,4 @@ Fully working version will be called Ver2.0.
 
 cat <>.bit > /dev/xdevcfg to load the bitsteam on the RP
 
+fpgautil -b /RP_Dev_Par_Lev/projects/red_pitaya_top.bit.bin
