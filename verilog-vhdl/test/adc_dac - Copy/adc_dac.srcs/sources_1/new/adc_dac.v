@@ -22,8 +22,8 @@
 
 module adc_ratio(
 input clk,
-input wire [13:0]adc, 
-output reg [13:0] dac
+input  wire signed [13:0]adc, 
+output reg signed [13:0] dac
     );
     wire adc_MSB = adc[13];
     wire [12:0] adc_val = (adc[12:0] << 1);
