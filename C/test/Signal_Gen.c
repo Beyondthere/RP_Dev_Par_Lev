@@ -15,6 +15,11 @@ int main(int argc, char **argv){
         fprintf(stderr, "Rp api init failed!\n");
     }
 
+   
+    
+   
+    
+    
     /* Reset generator */
     rp_GenReset();
 
@@ -28,7 +33,9 @@ int main(int argc, char **argv){
 
     // Trigger generation
     rp_GenTriggerOnly(RP_CH_2);
-
+    
+    sleep(5);
+    
     /* Releasing resources */
     rp_Release();
 
