@@ -17,7 +17,7 @@ int main(int argc, char **argv){
 
    
     
-    rp_WriteReg(0x0C, 0x0);
+   
     
     
     /* Reset generator */
