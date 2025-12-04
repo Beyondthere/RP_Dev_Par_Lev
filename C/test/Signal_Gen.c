@@ -21,7 +21,7 @@ int main(int argc, char **argv){
     /* Generation */
     rp_GenWaveform(RP_CH_2, RP_WAVEFORM_SINE);    // Waveform
     rp_GenFreq(RP_CH_2, 2000.0);                  // Frequency
-    rp_GenAmp(RP_CH_2, 1.0);                      // Amplitude
+    rp_GenAmp(RP_CH_2, .2);                      // Amplitude
 
     // Emable channel output
     rp_GenOutEnable(RP_CH_2);
