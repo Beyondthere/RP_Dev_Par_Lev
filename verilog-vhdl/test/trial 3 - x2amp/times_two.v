@@ -28,20 +28,20 @@ output reg [13:0] dac
     wire adc_MSB = adc[13];
     wire [12:0] adc_val = (adc[12:0] << 1);
     
-   wire overflow = (adc_MSB != adc_val[12]); 
+   wire flag = (adc_MSB != adc_val[12]); 
     
-    reg flag;
+    
     always@(posedge clk) begin
-        flag <= ~overflow;
         
-        if (flag  == 1'b1 && adc == 14'h3fff) begin
+        if(!flag && adc == 14'h2000) begin
+            dac <= 14'h2000;
+        end
+        
+        else if (flag && adc == 14'h3fff) begin
             dac <= 14'h1fff;
         end
-        else if( flag == 1'b1 && adc == 14'h0000)begin
+        else if( flag && adc == 14'h0000)begin
             dac <= 14'h0000;
-        end
-        else if(flag == 1'b0)begin
-            dac <= {adc_MSB, adc_val};
         end
         else begin
         dac <= {adc_MSB, adc_val};
