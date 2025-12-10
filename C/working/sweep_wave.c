@@ -33,7 +33,7 @@ int main() {
     float stop_freq  = 300000;  // 300 kHz
     int   sweep_time = 100000;  // 100,000 us = 100 ms
     int   sweep_amount = 1.0; // number of times the sweep happens
-    int offset = .5 
+    int offset = .5;
    
     rp_SWResetAll();                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
