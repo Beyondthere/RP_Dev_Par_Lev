@@ -90,13 +90,13 @@ int main() {
     usleep(sweep_time);
     rp_SWStop();
 
-
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-    
     rp_GenOutDisable(RP_CH_1);
     rp_GenAmp(RP_CH_1, 0.0f);
     rp_GenOffset(RP_CH_1, 0.0f);
     rp_GenWaveform(RP_CH_1, RP_WAVEFORM_DC);
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    
+    
 
     goto play;
     
