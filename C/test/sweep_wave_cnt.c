@@ -89,15 +89,16 @@ int main() {
     rp_SWRun();
     usleep(sweep_time);
 
-    //stop and zero the output
+    
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    
+    rp_SWGenSweep(RP_CH_1, false);
+    //stop a1nd zero the output
     rp_GenAmp(RP_CH_1, 0.0f);
     rp_GenOffset(RP_CH_1, 0.0f);
     rp_GenWaveform(RP_CH_1, RP_WAVEFORM_DC); // DC 0V
     rp_SWStop();
     rp_GenOutDisable(RP_CH_1);  // disable after setting to DC 0V
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-    
-    
 
     goto play;
     
