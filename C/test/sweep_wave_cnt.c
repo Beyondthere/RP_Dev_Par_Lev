@@ -60,7 +60,7 @@ int main() {
     }
 
     else if (play == 3) {
-        goto exit;    
+        goto exit_program;    
     }
 
     rp_SWResetAll();                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
