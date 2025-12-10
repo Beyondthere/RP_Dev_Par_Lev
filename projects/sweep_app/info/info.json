@@ -1,0 +1,6 @@
+{
+    "name": "Piezo Sweep",
+    "version": "0.01",
+    "revision": "12-10-2025",
+    "description": "Generate a sweep signal with offset at RF output on the Red Pitaya"
+}
