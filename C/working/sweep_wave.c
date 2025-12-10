@@ -33,11 +33,12 @@ int main() {
     float stop_freq  = 300000;  // 300 kHz
     int   sweep_time = 100000;  // 100,000 us = 100 ms
     int   sweep_amount = 1.0; // number of times the sweep happens
-
+    int offset = .5 
    
     rp_SWResetAll();                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     // Set sweep parameters
+    rp_GenOffset(RP_CH_1, .5)
     rp_SWSetStartFreq(RP_CH_1, start_freq);                                                                                                                                                                                                                                                                                                                                                                                                                                                
     rp_SWSetStopFreq (RP_CH_1, stop_freq);                                                                                                                                                                                                                                                                                                                                                                                                                                                 
     rp_SWSetTime     (RP_CH_1, sweep_time);                                                                                                                                                                                                                                                                                                                                                                                                                                                
