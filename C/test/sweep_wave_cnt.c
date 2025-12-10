@@ -66,7 +66,7 @@ int main() {
     rp_SWResetAll();                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     // Set sweep parameters
-    rp_GenOffset(RP_CH_1, .5);
+    rp_GenOffset(RP_CH_1, .5f);
     rp_SWSetStartFreq(RP_CH_1, start_freq);                                                                                                                                                                                                                                                                                                                                                                                                                                                
     rp_SWSetStopFreq (RP_CH_1, stop_freq);                                                                                                                                                                                                                                                                                                                                                                                                                                                 
     rp_SWSetTime     (RP_CH_1, sweep_time);                                                                                                                                                                                                                                                                                                                                                                                                                                                
@@ -91,6 +91,11 @@ int main() {
     rp_SWStop();
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     
+    rp_GenOutDisable(RP_CH_1);
+    rp_GenAmp(RP_CH_1, 0.0f);
+    rp_GenOffset(RP_CH_1, 0.0f);
+
+
     goto play;
     
     exit_program:
