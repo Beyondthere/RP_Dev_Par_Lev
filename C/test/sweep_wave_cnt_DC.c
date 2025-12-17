@@ -47,7 +47,7 @@ VALUES:
     scanf("%f", &stop_freq);
 
     while (1){
-        printf("ENTER P-P final voltage in (V)");
+        printf("ENTER 0-P final voltage in (V): ");
         scanf("%f", &amp_amount);
 
         RP_volt = (amp_amount / 800.0);
@@ -56,7 +56,7 @@ VALUES:
             break;
         }
         else{
-            printf("ERROR: too large of a value, dont break the R_P, RE-ENTER P-P amplitude:");
+            printf("ERROR: too large of a value, dont break the 0-P, RE-ENTER 0-P voltage amount:");
 
         }
 
