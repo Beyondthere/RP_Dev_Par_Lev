@@ -50,7 +50,7 @@ VALUES:
         printf("ENTER P-P final voltage in (V)");
         scanf("%f", &amp_amount);
 
-        RP_volt = (amp_amount / 800f);
+        RP_volt = (amp_amount / 800.0);
 
         if (RP_volt <= .25f && amp_amount <= 200){
             break;
