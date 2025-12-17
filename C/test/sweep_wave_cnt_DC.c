@@ -73,9 +73,32 @@ VALUES:
 PLAY:
 
     int play;
-    printf("Offset is %f, R_P voltage is %f.\n",offset, RP_volt);
+
+    char input[16];
+    while (1) {
+    printf("Offset is %f, R_P voltage is %f.\n", offset, RP_volt);
     printf("Press 1 to sweep and 2 to reset values, 3 to exit: \n");
-    scanf("%d", &play);
+
+    if (!fgets(input, sizeof(input), stdin)) {
+        // fgets failed, try again
+        continue;
+    }
+
+    // remove newline
+    input[strcspn(input, "\n")] = 0;
+
+    // try to parse integer
+    if (sscanf(input, "%d", &play) != 1) {
+        printf("Invalid input, please enter a number.\n");
+        continue;
+    }
+
+    if (play == 1 || play == 2 || play == 3) {
+        break;  // valid choice
+    } else {
+        printf("Choice must be 1, 2, or 3.\n");
+    }
+    }
 
     if(play == 2) {
         goto VALUES;
