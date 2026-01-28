@@ -1,0 +1,16 @@
+[StartTime]
+Vaccum assembly-Static 3.MFC=1s
+[SolverState]
+Vaccum assembly-Static 3.MFC=2
+[MainFrame]
+Vaccum assembly-Static 3.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMEEAAAAAHGCAAAAAELFAAAAAKDDAAAAA
+[ShowMin]
+Vaccum assembly-Static 3.MFC=No
+[SolverType]
+Vaccum assembly-Static 3.MFC=Linear Analysis
+[StudyType]
+Vaccum assembly-Static 3.MFC=0
+[StudyName]
+Vaccum assembly-Static 3.MFC=Static 3
+[Solver]
+Vaccum assembly-Static 3.MFC=Sparse

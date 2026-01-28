@@ -1,0 +1,16 @@
+[StartTime]
+Displacement sim-Static 4.MFC=1s
+[SolverState]
+Displacement sim-Static 4.MFC=2
+[MainFrame]
+Displacement sim-Static 4.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMEEAAAAAHGCAAAAAELFAAAAAKDDAAAAA
+[ShowMin]
+Displacement sim-Static 4.MFC=No
+[SolverType]
+Displacement sim-Static 4.MFC=Linear Analysis
+[StudyType]
+Displacement sim-Static 4.MFC=0
+[StudyName]
+Displacement sim-Static 4.MFC=Static 4
+[Solver]
+Displacement sim-Static 4.MFC=Sparse
